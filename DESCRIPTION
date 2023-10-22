@@ -1,0 +1,20 @@
+Package: CS599GMM.DA
+Title: GMM Package for Unsupervised learning CS599
+Version: 2023.10.19
+Authors@R: 
+    person("Doris", "Amoakohene",
+    email = "daa464@nau.edu",
+    role = c("aut", "cre"))
+Description: CS599GMM.DA is a comprehensive package designed for my class in CS599.The package will provide a range of functions for the Guassian Mixture Models(GMM) and other related tasks.This will aid users performing various operations such as fitting GMM models,estimating model parameters. 
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    data.table,
+    MASS,
+    mvtnorm,
+    mclust,
+    stats,
+    
+    

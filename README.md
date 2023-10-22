@@ -8,6 +8,10 @@ remotes::install_github("DorisAmoakohene/R-package-CS599")
 
 Usage:
 library(gmm)
+library(car)
+library(mvtnorm)
+library(data.table)
+library(stats)
 
 generate data
 gmm_model
